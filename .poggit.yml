@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Seekherr/CosmetIcsPlus
+build-by-default: true
+branches:
+- main
+projects:
+  CosmetIcsPlus:
+    path: ""

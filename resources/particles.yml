@@ -1,0 +1,32 @@
+#shapes: helix, 2d_verticle_circle, head_particle
+#particles:
+#'avp' => AngryVillagerParticle::class,
+#'wp' => WaterParticle::class,
+#'smp' => SmokeParticle::class,
+#'fp' => FlameParticle::class,
+#'dp' => DustParticle::class,
+#'bp' => BubbleParticle::class,
+#'cp' => CriticalParticle::class,
+#'etp' => EnchantmentTableParticle::class,
+#'hvp' => HappyVillagerParticle::class,
+#'hp' => HeartParticle::class,
+#'ip' => InkParticle::class,
+#'ldp' => LavaDripParticle::class,
+#'rp' => RedstoneParticle::class,
+#'sp' => SnowballPoofParticle::class,
+#'pp' => PortalParticle::class
+blizzard-aura:
+  name: 'blizzard-aura'
+  shape: 'helix'
+  particle: 'avp'
+  height: 4 #height the particle reaches
+flame-circle:
+  name: 'flame-circle'
+  shape: '2d_vertical_circle'
+  particle: 'fp'
+  height: 1 #height is radius in this case
+rain-cloud:
+  name: 'rain-cloud'
+  shape: 'head_particle'
+  particle: 'hvp'
+  height: 2 #height the particle is above from the player's head

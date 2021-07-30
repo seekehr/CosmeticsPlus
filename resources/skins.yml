@@ -1,0 +1,37 @@
+#types: grave, costume, facemask, vehicle
+youtube:
+  name: 'youtube'
+  type: 'costume'
+  skin: 'skins/youtube.png'
+  geometryName: 'geometry.skins/suits'
+  geometry: 'skins/youtube.json'
+tv:
+  name: 'tv'
+  type: 'facemask'
+  skin: 'skins/tv.png'
+  geometryName: 'geometry.skins/hats'
+  geometry: 'skins/tv.json'
+melon:
+  name: 'melon'
+  type: 'facemask'
+  skin: 'skins/melon.png'
+  geometryName: 'geometry.skins/hats'
+  geometry: 'skins/melon.json'
+default:
+  name: 'default'
+  type: 'grave'
+  skin: 'skins/Default_Death_Grave.png'
+  geometryName: 'geometry.unknown'
+  geometry: 'skins/Default_Death_Grave.json'
+steve:
+  name: 'steve'
+  type: 'grave'
+  skin: 'skins/Dead_Steve.png'
+  geometryName: 'geometry.steve'
+  geometry: 'skins/Dead_Steve.json'
+witch-broom:
+  name: 'witch-broom'
+  type: 'vehicle'
+  skin: 'skins/Witch_Broom.png'
+  geometryName: 'geometry.unknown'
+  geometry: 'skins/Witch_Broom.json'

@@ -1,0 +1,69 @@
+{
+	"format_version": "1.10.0",
+	"geometry.steve": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 3,
+		"visible_bounds_height": 2.5,
+		"visible_bounds_offset": [0, 0.75, 0],
+		"bones": [
+			{
+				"name": "Head",
+				"pivot": [0, 0, 0],
+				"cubes": [
+					{"origin": [-4, 0, -4], "size": [8, 8, 8], "uv": [0, 0]},
+					{"origin": [-4, 0, -4], "size": [8, 8, 8], "uv": [32, 0], "inflate": 0.5}
+				]
+			},
+			{
+				"name": "Arrow",
+				"pivot": [-1.2, 0.2, -0.2],
+				"rotation": [0, 0, 7.5],
+				"cubes": [
+					{"origin": [-6.2, 4.2, -1.2], "size": [12, 1, 1], "uv": [0, 62]},
+					{"origin": [5.8, 4.2, -0.7], "size": [1, 1, 0], "uv": [4, 57]}
+				]
+			},
+			{
+				"name": "ArrowTip",
+				"pivot": [-0.75, 6.6, 0],
+				"rotation": [0, 0, 52.5],
+				"cubes": [
+					{"origin": [4.95, 10.8, -0.7], "size": [2, 1, 0], "uv": [0, 59]}
+				]
+			},
+			{
+				"name": "ArrowTip2",
+				"pivot": [15.5, 1.4, 0],
+				"rotation": [0, 0, 135],
+				"cubes": [
+					{"origin": [19.2, -6.4, -0.7], "size": [2, 1, 0], "uv": [0, 61]}
+				]
+			},
+			{
+				"name": "Feather1",
+				"pivot": [-1.2, 0.2, -0.2],
+				"rotation": [0, 0, 7.5],
+				"cubes": [
+					{"origin": [-7.2, 4.2, -0.7], "size": [1, 1, 0], "uv": [6, 60]}
+				]
+			},
+			{
+				"name": "Feather2",
+				"pivot": [-13.9, 10.5, 0],
+				"rotation": [0, 0, -32.5],
+				"cubes": [
+					{"origin": [-12.2, 1.7, -0.7], "size": [2, 1, 0], "uv": [4, 61]}
+				]
+			},
+			{
+				"name": "Feather3",
+				"pivot": [-14.75, 8.5, 0],
+				"rotation": [0, 0, 52.5],
+				"cubes": [
+					{"origin": [-9.05, 12.7, -0.7], "size": [2, 1, 0], "uv": [4, 61]}
+				]
+			}
+		]
+	}
+}

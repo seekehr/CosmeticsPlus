@@ -1,0 +1,70 @@
+<?php
+
+declare(strict_types=1);
+
+namespace seeker\morphs;
+
+use pocketmine\entity\Creature;
+use pocketmine\entity\Monster;
+use pocketmine\level\Level;
+use pocketmine\nbt\tag\CompoundTag;
+use pocketmine\Player;
+use seeker\CosmeticsPlus;
+
+class EnderDragonMorph extends Monster
+{
+
+	use Morph;
+
+	const NETWORK_ID = self::ENDER_DRAGON;
+
+	public $height = 16;
+	public $width = 8;
+
+	/**
+	 * @var CosmeticsPlus
+	 */
+	private $main;
+
+	/** @var Player */
+	private $owner;
+
+	public function __construct(Level $level, CompoundTag $nbt, CosmeticsPlus $main, Player $player)
+	{
+		parent::__construct($level, $nbt);
+		$this->main = $main;
+		$this->owner = $player;
+		$this->setCanSaveWithChunk(false);
+	}
+
+	public function initEntity(): void
+	{
+		$this->setScale(0.3);
+		parent::initEntity();
+	}
+
+	public function entityBaseTick(int $tickDiff = 1): bool
+	{
+		if($this->owner->isClosed()) $this->flagForDespawn();
+		if($this->isClosed()){
+			$this->owner->setInvisible(false);
+			return false;
+		}
+		foreach($this->getViewers() as $viewer){
+			if(!$this->main->getDataProvider()->canSeeMorphs($viewer)){
+				$this->setInvisible();
+				$this->owner->setInvisible(false);
+			}
+		}
+		$this->setMaxHealth(200);
+		$this->setHealth($this->getMaxHealth());
+		$this->setPosition($this->owner->getPosition()->asVector3());
+		$this->setRotation($this->owner->getYaw() - 180, $this->owner->getPitch());
+		return parent::entityBaseTick($tickDiff);
+	}
+
+	public function getName(): string
+	{
+		return "EnderDragonMorph";
+	}
+}

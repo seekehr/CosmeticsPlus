@@ -1,0 +1,28 @@
+#Format:
+#ui-name:
+# - 'Title Name'
+# - 'Content'
+#Use {player} for player name in content, and {trail}/{grave}/{facemask}/{costume}/{particle} for their
+#current item for the mentioned
+trails:
+  - 'Trails UI'
+  - 'You, {player} are currently using {trail} trail!'
+  - 'hey' #page 2 content
+morphs:
+  - 'Morphs UI'
+  - '§5This is colo(u)red content!'
+graves:
+  - 'Graves UI'
+  - '§7You, §2{player}§7, are using: §e{grave}'
+face-masks:
+  - 'FaceMasks'
+  - 'You are using {facemask}!'
+costumes:
+  - 'Costumes'
+  - 'You are using {costume}!'
+particles:
+  - 'Particles'
+  - 'You are using {particle}'
+vehicles:
+  - 'Vehicles'
+  - 'You are using a vehicle. {vehicle} does not exist lol'

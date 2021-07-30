@@ -1,0 +1,67 @@
+#json or mysql
+data: json
+performance: true
+registeration-message: "Hey! You were registered to our CosmeticsPlus database!"
+use-command-as-player-message: "Please use this command as a player."
+cannot-do-such-action-in-this-world: 'yo no doing shit here innit bruv'
+trails-command-name: trails
+trails-command-description: "Get trails!"
+all-trails-worlds: true
+allowed-trails-worlds: []
+#{trail} is replaced with trail name
+set-trail-message: "Set your trail to: {trail}"
+turned-off-trail-message: "Turned off trails!"
+morphs-command-name: morphs
+morphs-command-description: "Turn into morphs!"
+#Available: 'villager', 'chicken', 'pig', 'irongolem', 'zombie', 'skeleton', 'creeper', 'spider', 'slime', 'blaze', 'witch', 'phantom', 'enderman', 'wither', 'enderdragon'
+available-morph-entities: ['villager', 'chicken', 'pig', 'irongolem', 'zombie', 'skeleton', 'creeper', 'spider', 'slime', 'blaze', 'witch', 'phantom', 'enderman', 'wither', 'enderdragon']
+all-morph-worlds: true
+allowed-morph-worlds: []
+#{morph} is replaced with morph name
+turned-into-morph-message: "You have successfully turned into a {morph}}!"
+turned-out-of-morph-message: "Morph turned off!"
+morph-not-found-message: "Morph not found :(!"
+graves-command-name: graves
+graves-command-description: "Get graves!"
+all-grave-worlds: true
+allowed-grave-worlds: []
+#Available: 'default', 'steve'
+available-graves: ['default', 'steve']
+#{player} is player name
+grave-nametag: "Here lies {player}!"
+#in seconds
+grave-despawn-cooldown: 60
+#{grave} is replaced with grave name
+set-grave-message: 'Set your grave to: {grave}'
+turned-off-grave-message: "Turned off grave"
+face-masks-command-name: facemasks
+face-masks-command-description: 'Set your face-mask!'
+all-face-masks-worlds: true
+allowed-face-mask-worlds: []
+available-face-masks: ['tv', 'melon']
+#{facemask} is replaced with face-mask name
+set-face-mask-message: 'Set your face-mask to: {facemask}'
+turned-off-face-mask-message: 'Turned off facemask'
+costumes-command-name: costumes
+costumes-command-description: 'Set your costume!'
+all-costumes-worlds: true
+allowed-costume-worlds: []
+available-costumes: ['youtube']
+#{costume} is replaced with costume name
+set-costume-message: 'Set your costume to: {costume}'
+turned-off-costume-message: 'Turned off costume'
+particles-command-name: 'particles'
+particles-command-description: 'get particles'
+all-particle-worlds: true
+allowed-particle-worlds: []
+#{particle} is replaced with particle name
+set-particle-message: 'yo set particle {particle}'
+turned-off-particle-message: 'turned off particle ayo'
+vehicle-command-name: 'vehicles'
+vehicle-command-description: 'ride vehicles'
+all-vehicle-worlds: true
+allowed-vehicle-worlds: []
+available-vehicles: ['witch-broom']
+set-vehicle-message: 'yo set vehicle'
+turned-off-vehicle-message: 'turned off vehicle ayo'
+fly-vehicle-permission: 'vehicle.fly'

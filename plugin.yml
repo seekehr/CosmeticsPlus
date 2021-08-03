@@ -2,4 +2,4 @@ name: CosmeticsPlus
 main: seeker\CosmeticsPlus\CosmeticsPlus
 author: seeker
 version: 1.0.0
-api: [3.21.0]
+api: 3.21.0

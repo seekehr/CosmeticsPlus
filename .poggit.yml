@@ -3,7 +3,7 @@ build-by-default: true
 branches:
 - main
 projects:
-  CosmetIcsPlus:
+  CosmeticsPlus:
     path: ""
     libs:
       - src: xenialdan/skinapi

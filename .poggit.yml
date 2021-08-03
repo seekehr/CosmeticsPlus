@@ -7,6 +7,5 @@ projects:
     path: ""
     libs:
       - src: xenialdan/skinapi
-        version: ^0.3.0
-        branch: master
+        version: ~0.3.0
 ...

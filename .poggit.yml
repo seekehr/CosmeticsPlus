@@ -6,6 +6,6 @@ projects:
   CosmeticsPlus:
     path: ""
     libs:
-      - src: xenialdan/skinapi
+      - src: xenialdan/skinapi/skinapi
         version: ~3.3.1
 ...

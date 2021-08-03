@@ -1,12 +1,5 @@
-<<<<<<< HEAD
-name: CosmeticsPlus
-main: seeker\CosmeticsPlus
-author: seeker
-version: 1.0.0
-=======
 name: CosmeticsPlus
 main: seeker\CosmeticsPlus\CosmeticsPlus
 author: seeker
 version: 1.0.0
->>>>>>> 336e2aa (Make better namespace)
-api: 3.21.0
+api: [3.21.0]
